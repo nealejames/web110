@@ -16,8 +16,14 @@
     font-size: 16px;
 }
 
-.topnav a.hover, .active {
-    background-color: darkcyan;
+.topnav a:hover {
+    background-color: #2471A3;
+    color: #ffffff;
+}
+
+.topnav .active {
+    background-color: #2471A3;
+    color: #ffffff;
 }
 
 .topnav .icon {
