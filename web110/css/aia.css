@@ -6,12 +6,9 @@ table {
     border: 1px solid #000;
     width: 80%;
     margin: auto;
-}
-
-
-table {
     border-collapse: collapse;
 }
+
 
 caption {
     
@@ -31,12 +28,11 @@ table.client {
     margin: 40px auto;
 }
 
-/*
+
 table.client td {
-    border-bottom: solid #ddd;
     width: 50%;
 }
-*/
+
 
 table.audience th {
     font-size: 1.25em;
