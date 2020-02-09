@@ -1,0 +1,35 @@
+/* styles for tables */
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 80%;
+    margin: auto;
+}
+
+tr:nth-child(even){
+    background-color: #EAF2F8;
+   
+}
+
+thead {
+    background-color: #EAF2F8;
+}
+
+/* 
+tr {
+    vertical-align: top;
+}
+*/
+
+td, th {
+    border: 1px solid black;
+    padding: .5em;
+    
+}
+
+.col1 {
+    width: 10%;
+}
+
