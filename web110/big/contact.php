@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width" />
   <link rel="stylesheet" href="css/big.css" />
   <link rel="stylesheet" href="css/nav.css" />
+     <link rel="stylesheet" href="css/forms.css" />
      
      <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
      <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
@@ -42,7 +43,25 @@
        
     <section class=fullwidth>
         <h2>Contact Neale</h2>
-        <p>Watch the supporting instructional video to create the contents for this page</p>
+        
+    <?php
+        /*
+         * Below are 2 different forms to be re-used       
+         * 
+         * Only use one at a time, comment out the other!       
+         *
+         */
+
+        include 'includes/contact_include.php'; #site keys & code here
+    
+        $toAddress = "simpkins.neale@gmail.com";  //place your/your client's email address here
+        $toName = "Neale"; //place your client's name here
+        $website = "Web 110";  //place NAME of your client's website
+
+        //echo loadContact('simple.php');#demonstrates a simple contact form
+        echo loadContact('multiple.php');#demonstrates multiple form elements
+
+	?>
     </section>
 
      <footer>

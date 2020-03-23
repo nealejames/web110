@@ -1,16 +1,38 @@
 /* BIG Website */
 
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 html {
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.95em;
+    line-height: 1.5em;
+}
+
+/* html {
     background-color: #ccc;
 }
+*/
 
 main {
     background-color: #fff;
     width: 80%;
-    margin: auto;
+    margin:0 auto;
+    overflow: auto;
 }
 
-h1 a {
+h1 {
+    text-decoration: none;
+}
+
+a {
+    color:#1B4F72;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+    background-color: #2471A3;
     text-decoration: none;
 }
 
@@ -25,6 +47,7 @@ header h1 {
 section {
     float: left;
     width: 64%;
+    margin-left: 1.5em;
 }
 
 aside {
@@ -90,7 +113,7 @@ footer{
 
 /* MOBILE STYLES */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 970px) {
 
     main {
     width: 100%;
